@@ -1,0 +1,27 @@
+{
+  "name": "aerodex",
+  "version": "1.0.0",
+  "description": "A PokeDex",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aerospace91/AeroDex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aerospace91/AeroDex/issues"
+  },
+  "homepage": "https://github.com/Aerospace91/AeroDex#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
